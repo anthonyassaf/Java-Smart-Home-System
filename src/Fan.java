@@ -3,10 +3,10 @@
  *
  * @author anthony
  */
-public class Fan implements HomeComponent {
+public class Fan extends HComponent {
     private int level;
     private SmartHomeMediator smartHomeMediator;
-
+    
     @Override
     public void on() {
         System.out.println("Turning on the fan");

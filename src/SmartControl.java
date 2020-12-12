@@ -3,7 +3,7 @@
  *
  * @author anthony
  */
-public class SmartControl implements HomeComponent {
+public class SmartControl extends HComponent {
     private boolean smartControl;
     private SmartHomeMediator smartHomeMediator;
 

@@ -3,7 +3,7 @@
  *
  * @author anthony
  */
-public class AirConditioner implements HomeComponent {
+public class AirConditioner extends HComponent{
     private int level;
     private SmartHomeMediator smartHomeMediator;
 
